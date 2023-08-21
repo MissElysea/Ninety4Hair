@@ -1,32 +1,38 @@
 .LineItem {
     width: 100%;
     display: grid;
-    grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
-    padding: 1vmin 0;
-    color: var(--text-light);
+    grid-template-columns: 2vw 15vw 5vw 5vw;
+    padding: 0.5vmin 0;
+    color: black;
     background-color: var(--white);
-    border-top: .1vmin solid var(--tan-3);
-    font-size: 1.5vw;
-    }
-    
-    .LineItem:last-child {
-    border-bottom: .1vmin solid var(--tan-3);
-    }
-    
-    .LineItem .qty {
+    border-top: 0.1vmin solid var(--pink);
+    font-size: 1vw;
+  }
+  
+  /* Adjust the image size */
+  .LineItem .image {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-size: cover;
+  }
+  
+  .LineItem:last-child {
+    border-bottom: 0.1vmin solid var(--pink);
+  }
+  
+  .LineItem .qty,
+  .LineItem .extPrice {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.3vw;
-    }
-    
-    .LineItem .extPrice {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 1.3vw;
-    }
-    
-    .LineItem button {
+  }
+  
+  .LineItem .qty,
+  .LineItem .extPrice {
+    font-size: 0.8vw;
+  }
+  
+  .LineItem button {
     margin: 0;
-    }
+  }
+  

@@ -1,13 +1,8 @@
-.Logo {
-    height: 12vmin;
-    width: 12vmin;
+.Logo img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    background-color: var(--orange);
-    color: var(--tan-1);
-    font-size: 2.7vmin;
-    border: .6vmin solid var(--tan-2);
-    }
+    height: 250px;
+    width: 250px;
+}
