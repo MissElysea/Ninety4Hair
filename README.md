@@ -2,6 +2,10 @@
 <img src="https://i.imgur.com/X2jOtpj.jpg" alt="logo">
 </p>
 
+<p align="center">
+www.ninety4hair.elyseacrawford.me
+</p>
+
 ## Hair Extensions E-commerce Full-Stack Application
 
 Welcome to Ninety4Hair! A hair extensions e-commerce Full-Stack application! This project showcases a fully functional web application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to browse, search, and purchase various hair extensions and related products online. It also includes an administrative interface for managing products, orders, and customer data.
