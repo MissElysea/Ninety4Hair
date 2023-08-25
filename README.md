@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-www.ninety4hair.elyseacrawford.me
+https://ninety4hair.elyseacrawford.me
 </p>
 
 ## Hair Extensions E-commerce Full-Stack Application
